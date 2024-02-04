@@ -2,6 +2,8 @@ package variable;
 
 public class Var7 {
     public static void main(String[] args) {
+          // a: 변수, 100: 리터럴
+          // 변수의 값은 변할 수 있지만 리터럴은 개발자가 직접 입력한 고정된 값이다.
         int a = 100; // 정수
         double b = 10.5; // 실수
         boolean c = true; // 불리언(boolean) true, false 입력 가능
