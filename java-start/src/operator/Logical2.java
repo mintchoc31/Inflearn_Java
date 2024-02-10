@@ -6,7 +6,7 @@ public class Logical2 {
         int a = 15;
         // a는 10보다 크고 20보다 작다
         boolean result = a > 10 && a < 20; // (a > 10) && (a < 20)
-        // boolean result = 10 < a && a < 20; // 읽기 편해짐
+     // boolean result = 10 < a && a < 20; // 위의 표기보다 읽기 편하다.
         System.out.println("result = " + result); // true
     }
 }

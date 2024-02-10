@@ -12,7 +12,7 @@ public class Comp1 {
         System.out.println(a >= b); // false
         System.out.println(a <= b); // true
 
-        // 결과를 boolean 변수에 담음
+        // 결과를 boolean 변수에 담는다.
         boolean result = a == b;
         System.out.println(result); // false
     }

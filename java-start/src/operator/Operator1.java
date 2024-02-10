@@ -22,15 +22,15 @@ public class Operator1 {
         // 나눗셈
         int div = a / b;
         System.out.println("a / b = " + div); // 출력 a / b = 2
-        // int형 끼리 계산을 했으므로 값도 int형이 나옴(소수점 표현x)
+        // int형 끼리 계산을 했으므로 값도 int형이 나온다.(소수점 표현x)
 
         // 나머지
         int mod = a % b; // 5/2 = 2, 나머지 1
         System.out.println("a % b = " + mod); // 출력 a % b = 1
 
         // int z = 10 / 0;
-        // 숫자는 0으로 나눌 수 없다. 수학에서 허용하지 않음
+        // 숫자는 0으로 나눌 수 없다. 수학에서 허용하지 않는다.
         // 예외 발생 : ArithmeticException: / by zero
-        // 예외가 발생하면 해당 시점 이후의 결과가 출력되지 않고 프로그램이 종료됨
+        // 예외가 발생하면 해당 시점 이후의 결과가 출력되지 않고 프로그램이 종료된다.
     }
 }
